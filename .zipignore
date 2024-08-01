@@ -1,0 +1,9 @@
+*node_modules/*
+*dist/*
+*target/*
+*.parcel-cache/*
+.gitignore
+.zipignore
+*~
+*.bak
+*grading-tests/*
