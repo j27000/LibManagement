@@ -2,5 +2,99 @@ Name:		Naman jhala
 B-Number:	B01039283
 Email:		njhala@binghamton.edu
 
-Add text here as needed to document the status of your project.
 
+# Library Management System
+
+A comprehensive full-stack application for managing a physical lending library, integrating both front-end and back-end functionalities.
+
+
+
+## Features
+
+- In-memory indexing for optimized book retrieval
+- RESTful API for seamless front-end and back-end integration
+- Robust server-side input validation using Zod
+- Dynamic UI components with React
+- MongoDB integration for data persistence
+- CRUD operations for efficient book management
+  endpoints.
+
+## Technologies Used
+
+- Frontend: React, TypeScript
+- Backend: Node.js, Express.js, TypeScript
+- Database: MongoDB
+- Validation: Zod
+- Testing: Jest
+
+
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Authors
+
+- [@j27000](https://github.com/j27000)
+
+
+## 🚀 About Me
+A passionate frontend developer currently pursuing masters in computer science from state University of New York ,Binghamton University
+
+
+
+
+
+## Installation
+
+1. Clone the repository:
+git clone https://github.com/j27000/library-management-system.git
+Copy
+2. Navigate to the project directory:
+cd library-management-system
+Copy
+3. Install dependencies for both frontend and backend:
+npm install
+cd client && npm install
+Copy
+4. Set up environment variables:
+Create a `.env` file in the root directory and add necessary variables (e.g., MongoDB connection string, JWT secret)
+
+5. Start the development servers:
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-jhala-171a551b4/)
+[![leetcode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Naman_2700/)
+
+
+
+## 🛠 Skills
+Javascript, HTML, CSS, React ,Firebase, css tailwind,c,c++,mysql
+
+
+## Other Common Github Profile Sections
+I’m currently working on [petadopt](https://petadopt-xi.vercel.app/)
+
+- 🌱 I’have learned  **React js and moving towards Backend (Node,Express and Monogodb)**
+
+- 👯 I Have completed my another full stack project related to Games [GameStreet](https://gamestreet-lac.vercel.app/)
+
+- 💬 Ask me about **c,c++,HTML,CSS, Javascript,React, firebase,CSS tailwind
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## API Endpoints
+
+- `GET /api/books`: Retrieve all books
+- `POST /api/books`: Add a new book
+- `PUT /api/books/:id`: Update a book
+- `DELETE /api/books/:id`: Remove a book
